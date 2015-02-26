@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1424900865813" clover="3.3.0">
+   <project timestamp="1424900824365" name="ac-games-restservice-spring 0.1.0-SNAPSHOT">
+      <metrics conditionals="72" methods="14" classes="4" files="4" packages="2" coveredstatements="119" complexity="92" loc="711" ncloc="473" coveredmethods="12" coveredconditionals="38" statements="250" coveredelements="169" elements="336"/>
+      <package name="com.ac.games.rest.controller">
+         <metrics conditionals="72" methods="12" classes="3" files="3" coveredstatements="119" complexity="88" loc="665" ncloc="442" coveredmethods="12" coveredconditionals="38" statements="240" coveredelements="169" elements="324"/>
+         <file name="BGGDataController.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/main/java/com/ac/games/rest/controller/BGGDataController.java">
+            <metrics classes="1" methods="4" conditionals="28" ncloc="153" coveredstatements="44" coveredmethods="4" complexity="32" coveredconditionals="16" statements="85" loc="232" coveredelements="64" elements="117"/>
+            <class name="BGGDataController">
+               <metrics methods="4" conditionals="28" coveredstatements="44" coveredmethods="4" complexity="32" coveredconditionals="16" statements="85" coveredelements="64" elements="117"/>
+            </class>
+            <line num="65" count="6" visibility="public" complexity="17" type="method" signature="getBGGData(long,String,int) : Object"/>
+            <line num="70" count="6" type="stmt"/>
+            <line num="70" falsecount="6" type="cond" truecount="0"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="6" type="stmt"/>
+            <line num="72" falsecount="6" type="cond" truecount="0"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="75" count="6" type="stmt"/>
+            <line num="75" falsecount="3" type="cond" truecount="3"/>
+            <line num="77" count="3" type="stmt"/>
+            <line num="78" count="3" type="stmt"/>
+            <line num="79" count="3" type="stmt"/>
+            <line num="80" count="3" type="stmt"/>
+            <line num="82" count="3" type="stmt"/>
+            <line num="83" count="3" type="stmt"/>
+            <line num="85" count="3" type="stmt"/>
+            <line num="86" count="3" type="stmt"/>
+            <line num="86" falsecount="3" type="cond" truecount="2"/>
+            <line num="87" count="2" type="stmt"/>
+            <line num="89" count="3" type="stmt"/>
+            <line num="92" count="3" type="stmt"/>
+            <line num="95" count="3" type="stmt"/>
+            <line num="96" count="3" type="stmt"/>
+            <line num="96" count="1" type="stmt"/>
+            <line num="96" falsecount="2" type="cond" truecount="1"/>
+            <line num="97" count="2" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="103" falsecount="0" type="cond" truecount="0"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="112" falsecount="0" type="cond" truecount="0"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="114" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="126" count="3" type="stmt"/>
+            <line num="128" count="3" type="stmt"/>
+            <line num="129" count="3" type="stmt"/>
+            <line num="130" count="3" type="stmt"/>
+            <line num="131" count="3" type="stmt"/>
+            <line num="132" count="3" type="stmt"/>
+            <line num="132" falsecount="2" type="cond" truecount="1"/>
+            <line num="133" count="1" type="stmt"/>
+            <line num="135" count="0" type="stmt"/>
+            <line num="136" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line num="139" count="0" type="stmt"/>
+            <line num="142" count="2" type="stmt"/>
+            <line num="153" count="1" visibility="public" complexity="5" type="method" signature="putBGGData(BGGGame) : Object"/>
+            <line num="155" count="1" type="stmt"/>
+            <line num="155" falsecount="1" type="cond" truecount="0"/>
+            <line num="156" count="0" type="stmt"/>
+            <line num="158" count="1" type="stmt"/>
+            <line num="158" falsecount="1" type="cond" truecount="0"/>
+            <line num="159" count="0" type="stmt"/>
+            <line num="161" count="1" type="stmt"/>
+            <line num="162" count="1" type="stmt"/>
+            <line num="163" count="1" type="stmt"/>
+            <line num="165" count="0" type="stmt"/>
+            <line num="166" count="0" type="stmt"/>
+            <line num="168" count="0" type="stmt"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="172" count="1" type="stmt"/>
+            <line num="182" count="1" visibility="public" complexity="5" type="method" signature="postBGGData(BGGGame) : Object"/>
+            <line num="184" count="1" type="stmt"/>
+            <line num="184" falsecount="1" type="cond" truecount="0"/>
+            <line num="185" count="0" type="stmt"/>
+            <line num="187" count="1" type="stmt"/>
+            <line num="187" falsecount="1" type="cond" truecount="0"/>
+            <line num="188" count="0" type="stmt"/>
+            <line num="190" count="1" type="stmt"/>
+            <line num="191" count="1" type="stmt"/>
+            <line num="192" count="1" type="stmt"/>
+            <line num="194" count="0" type="stmt"/>
+            <line num="195" count="0" type="stmt"/>
+            <line num="197" count="0" type="stmt"/>
+            <line num="198" count="0" type="stmt"/>
+            <line num="201" count="1" type="stmt"/>
+            <line num="211" count="1" visibility="public" complexity="5" type="method" signature="deleteBGGData(BGGIDOnlyData) : Object"/>
+            <line num="213" count="1" type="stmt"/>
+            <line num="213" falsecount="1" type="cond" truecount="0"/>
+            <line num="214" count="0" type="stmt"/>
+            <line num="216" count="1" type="stmt"/>
+            <line num="216" falsecount="1" type="cond" truecount="0"/>
+            <line num="217" count="0" type="stmt"/>
+            <line num="219" count="1" type="stmt"/>
+            <line num="220" count="1" type="stmt"/>
+            <line num="221" count="1" type="stmt"/>
+            <line num="223" count="0" type="stmt"/>
+            <line num="224" count="0" type="stmt"/>
+            <line num="226" count="0" type="stmt"/>
+            <line num="227" count="0" type="stmt"/>
+            <line num="230" count="1" type="stmt"/>
+         </file>
+         <file name="CSIDataController.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/main/java/com/ac/games/rest/controller/CSIDataController.java">
+            <metrics classes="1" methods="4" conditionals="22" ncloc="145" coveredstatements="38" coveredmethods="4" complexity="28" coveredconditionals="11" statements="78" loc="218" coveredelements="53" elements="104"/>
+            <class name="CSIDataController">
+               <metrics methods="4" conditionals="22" coveredstatements="38" coveredmethods="4" complexity="28" coveredconditionals="11" statements="78" coveredelements="53" elements="104"/>
+            </class>
+            <line num="62" count="5" visibility="public" complexity="13" type="method" signature="getCSIData(long,String) : Object"/>
+            <line num="64" count="5" type="stmt"/>
+            <line num="64" falsecount="5" type="cond" truecount="0"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="68" count="5" type="stmt"/>
+            <line num="70" count="5" type="stmt"/>
+            <line num="70" falsecount="3" type="cond" truecount="2"/>
+            <line num="72" count="2" type="stmt"/>
+            <line num="73" count="2" type="stmt"/>
+            <line num="74" count="2" type="stmt"/>
+            <line num="75" count="2" type="stmt"/>
+            <line num="77" count="2" type="stmt"/>
+            <line num="78" count="2" type="stmt"/>
+            <line num="80" count="2" type="stmt"/>
+            <line num="83" count="2" type="stmt"/>
+            <line num="84" count="2" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="86" falsecount="0" type="cond" truecount="0"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="95" falsecount="0" type="cond" truecount="0"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="112" count="2" type="stmt"/>
+            <line num="114" count="3" type="stmt"/>
+            <line num="115" count="3" type="stmt"/>
+            <line num="116" count="3" type="stmt"/>
+            <line num="117" count="3" type="stmt"/>
+            <line num="118" count="3" type="stmt"/>
+            <line num="118" falsecount="2" type="cond" truecount="1"/>
+            <line num="119" count="1" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="128" count="2" type="stmt"/>
+            <line num="139" count="1" visibility="public" complexity="5" type="method" signature="putCSIData(CoolStuffIncPriceData) : Object"/>
+            <line num="141" count="1" type="stmt"/>
+            <line num="141" falsecount="1" type="cond" truecount="0"/>
+            <line num="142" count="0" type="stmt"/>
+            <line num="144" count="1" type="stmt"/>
+            <line num="144" falsecount="1" type="cond" truecount="0"/>
+            <line num="145" count="0" type="stmt"/>
+            <line num="147" count="1" type="stmt"/>
+            <line num="148" count="1" type="stmt"/>
+            <line num="149" count="1" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+            <line num="154" count="0" type="stmt"/>
+            <line num="155" count="0" type="stmt"/>
+            <line num="158" count="1" type="stmt"/>
+            <line num="168" count="1" visibility="public" complexity="5" type="method" signature="postCSIData(CoolStuffIncPriceData) : Object"/>
+            <line num="170" count="1" type="stmt"/>
+            <line num="170" falsecount="1" type="cond" truecount="0"/>
+            <line num="171" count="0" type="stmt"/>
+            <line num="173" count="1" type="stmt"/>
+            <line num="173" falsecount="1" type="cond" truecount="0"/>
+            <line num="174" count="0" type="stmt"/>
+            <line num="176" count="1" type="stmt"/>
+            <line num="177" count="1" type="stmt"/>
+            <line num="178" count="1" type="stmt"/>
+            <line num="180" count="0" type="stmt"/>
+            <line num="181" count="0" type="stmt"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="184" count="0" type="stmt"/>
+            <line num="187" count="1" type="stmt"/>
+            <line num="197" count="1" visibility="public" complexity="5" type="method" signature="deleteCSIData(CSIIDOnlyData) : Object"/>
+            <line num="199" count="1" type="stmt"/>
+            <line num="199" falsecount="1" type="cond" truecount="0"/>
+            <line num="200" count="0" type="stmt"/>
+            <line num="202" count="1" type="stmt"/>
+            <line num="202" falsecount="1" type="cond" truecount="0"/>
+            <line num="203" count="0" type="stmt"/>
+            <line num="205" count="1" type="stmt"/>
+            <line num="206" count="1" type="stmt"/>
+            <line num="207" count="1" type="stmt"/>
+            <line num="209" count="0" type="stmt"/>
+            <line num="210" count="0" type="stmt"/>
+            <line num="212" count="0" type="stmt"/>
+            <line num="213" count="0" type="stmt"/>
+            <line num="216" count="1" type="stmt"/>
+         </file>
+         <file name="MMDataController.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/main/java/com/ac/games/rest/controller/MMDataController.java">
+            <metrics classes="1" methods="4" conditionals="22" ncloc="144" coveredstatements="37" coveredmethods="4" complexity="28" coveredconditionals="11" statements="77" loc="215" coveredelements="52" elements="103"/>
+            <class name="MMDataController">
+               <metrics methods="4" conditionals="22" coveredstatements="37" coveredmethods="4" complexity="28" coveredconditionals="11" statements="77" coveredelements="52" elements="103"/>
+            </class>
+            <line num="62" count="5" visibility="public" complexity="13" type="method" signature="getMMData(long,String) : Object"/>
+            <line num="64" count="5" type="stmt"/>
+            <line num="64" falsecount="5" type="cond" truecount="0"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="67" count="5" type="stmt"/>
+            <line num="67" falsecount="3" type="cond" truecount="2"/>
+            <line num="69" count="2" type="stmt"/>
+            <line num="70" count="2" type="stmt"/>
+            <line num="71" count="2" type="stmt"/>
+            <line num="72" count="2" type="stmt"/>
+            <line num="74" count="2" type="stmt"/>
+            <line num="75" count="2" type="stmt"/>
+            <line num="77" count="2" type="stmt"/>
+            <line num="80" count="2" type="stmt"/>
+            <line num="81" count="2" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="86" falsecount="0" type="cond" truecount="0"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="95" falsecount="0" type="cond" truecount="0"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="109" count="2" type="stmt"/>
+            <line num="111" count="3" type="stmt"/>
+            <line num="112" count="3" type="stmt"/>
+            <line num="113" count="3" type="stmt"/>
+            <line num="114" count="3" type="stmt"/>
+            <line num="115" count="3" type="stmt"/>
+            <line num="115" falsecount="2" type="cond" truecount="1"/>
+            <line num="116" count="1" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="125" count="2" type="stmt"/>
+            <line num="136" count="1" visibility="public" complexity="5" type="method" signature="putMMData(MiniatureMarketPriceData) : Object"/>
+            <line num="138" count="1" type="stmt"/>
+            <line num="138" falsecount="1" type="cond" truecount="0"/>
+            <line num="139" count="0" type="stmt"/>
+            <line num="141" count="1" type="stmt"/>
+            <line num="141" falsecount="1" type="cond" truecount="0"/>
+            <line num="142" count="0" type="stmt"/>
+            <line num="144" count="1" type="stmt"/>
+            <line num="145" count="1" type="stmt"/>
+            <line num="146" count="1" type="stmt"/>
+            <line num="148" count="0" type="stmt"/>
+            <line num="149" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+            <line num="155" count="1" type="stmt"/>
+            <line num="165" count="1" visibility="public" complexity="5" type="method" signature="postMMData(MiniatureMarketPriceData) : Object"/>
+            <line num="167" count="1" type="stmt"/>
+            <line num="167" falsecount="1" type="cond" truecount="0"/>
+            <line num="168" count="0" type="stmt"/>
+            <line num="170" count="1" type="stmt"/>
+            <line num="170" falsecount="1" type="cond" truecount="0"/>
+            <line num="171" count="0" type="stmt"/>
+            <line num="173" count="1" type="stmt"/>
+            <line num="174" count="1" type="stmt"/>
+            <line num="175" count="1" type="stmt"/>
+            <line num="177" count="0" type="stmt"/>
+            <line num="178" count="0" type="stmt"/>
+            <line num="180" count="0" type="stmt"/>
+            <line num="181" count="0" type="stmt"/>
+            <line num="184" count="1" type="stmt"/>
+            <line num="194" count="1" visibility="public" complexity="5" type="method" signature="deleteMMData(MMIDOnlyData) : Object"/>
+            <line num="196" count="1" type="stmt"/>
+            <line num="196" falsecount="1" type="cond" truecount="0"/>
+            <line num="197" count="0" type="stmt"/>
+            <line num="199" count="1" type="stmt"/>
+            <line num="199" falsecount="1" type="cond" truecount="0"/>
+            <line num="200" count="0" type="stmt"/>
+            <line num="202" count="1" type="stmt"/>
+            <line num="203" count="1" type="stmt"/>
+            <line num="204" count="1" type="stmt"/>
+            <line num="206" count="0" type="stmt"/>
+            <line num="207" count="0" type="stmt"/>
+            <line num="209" count="0" type="stmt"/>
+            <line num="210" count="0" type="stmt"/>
+            <line num="213" count="1" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.ac.games.rest">
+         <metrics conditionals="0" methods="2" classes="1" files="1" coveredstatements="0" complexity="4" loc="46" ncloc="31" coveredmethods="0" coveredconditionals="0" statements="10" coveredelements="0" elements="12"/>
+         <file name="Application.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/main/java/com/ac/games/rest/Application.java">
+            <metrics classes="1" methods="2" conditionals="0" ncloc="31" coveredstatements="0" coveredmethods="0" complexity="4" coveredconditionals="0" statements="10" loc="46" coveredelements="0" elements="12"/>
+            <class name="Application">
+               <metrics methods="2" conditionals="0" coveredstatements="0" coveredmethods="0" complexity="4" coveredconditionals="0" statements="10" coveredelements="0" elements="12"/>
+            </class>
+            <line num="23" count="0" visibility="public" complexity="2" type="method" signature="main(String[]) : void"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line num="30" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="36" count="0" visibility="public" complexity="2" type="method" signature="shutdownHook() : void"/>
+            <line num="38" count="0" type="stmt"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject timestamp="1424900824365" name="ac-games-restservice-spring 0.1.0-SNAPSHOT">
+      <metrics conditionals="0" methods="10" classes="3" files="3" packages="1" coveredstatements="75" complexity="16" loc="557" ncloc="426" coveredmethods="10" coveredconditionals="0" statements="84" coveredelements="85" elements="94"/>
+      <package name="com.ac.games.rest.test">
+         <metrics conditionals="0" methods="10" classes="3" files="3" coveredstatements="75" complexity="16" loc="557" ncloc="426" coveredmethods="10" coveredconditionals="0" statements="84" coveredelements="85" elements="94"/>
+         <file name="BGGControllerTest.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/test/java/com/ac/games/rest/test/BGGControllerTest.java">
+            <metrics classes="1" methods="4" conditionals="0" ncloc="160" coveredstatements="27" coveredmethods="4" complexity="6" coveredconditionals="0" statements="30" loc="207" coveredelements="31" elements="34"/>
+            <class name="BGGControllerTest">
+               <metrics conditionals="0" methods="4" coveredstatements="27" complexity="6" testpasses="2" testruns="2" coveredmethods="4" coveredconditionals="0" statements="30" testfailures="0" coveredelements="31" elements="34" testduration="2.934"/>
+            </class>
+            <line num="38" count="2" visibility="public" complexity="2" type="method" signature="setup() : void"/>
+            <line num="41" count="2" type="stmt"/>
+            <line num="42" count="2" type="stmt"/>
+            <line num="44" count="2" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="47" count="0" type="stmt"/>
+            <line num="51" count="2" visibility="public" complexity="2" type="method" signature="tearDown() : void"/>
+            <line num="53" count="2" type="stmt"/>
+            <line num="54" count="2" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="74" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="2.528" signature="testBGGGame() : void"/>
+            <line num="76" count="1" type="stmt"/>
+            <line num="78" count="1" type="stmt"/>
+            <line num="80" count="1" type="stmt"/>
+            <line num="97" count="1" type="stmt"/>
+            <line num="98" count="1" type="stmt"/>
+            <line num="100" count="1" type="stmt"/>
+            <line num="101" count="1" type="stmt"/>
+            <line num="112" count="1" type="stmt"/>
+            <line num="114" count="1" type="stmt"/>
+            <line num="131" count="1" type="stmt"/>
+            <line num="132" count="1" type="stmt"/>
+            <line num="134" count="1" type="stmt"/>
+            <line num="136" count="1" type="stmt"/>
+            <line num="147" count="1" type="stmt"/>
+            <line num="149" count="1" type="stmt"/>
+            <line num="161" count="1" type="stmt"/>
+            <line num="162" count="1" type="stmt"/>
+            <line num="173" count="1" type="stmt"/>
+            <line num="174" count="1" type="stmt"/>
+            <line num="185" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.406" signature="testBGGGameBatch() : void"/>
+            <line num="187" count="1" type="stmt"/>
+            <line num="189" count="1" type="stmt"/>
+            <line num="191" count="1" type="stmt"/>
+         </file>
+         <file name="CSIControllerTest.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/test/java/com/ac/games/rest/test/CSIControllerTest.java">
+            <metrics classes="1" methods="3" conditionals="0" ncloc="133" coveredstatements="24" coveredmethods="3" complexity="5" coveredconditionals="0" statements="27" loc="175" coveredelements="27" elements="30"/>
+            <class name="CSIControllerTest">
+               <metrics conditionals="0" methods="3" coveredstatements="24" complexity="5" testpasses="1" testruns="1" coveredmethods="3" coveredconditionals="0" statements="27" testfailures="0" coveredelements="27" elements="30" testduration="1.147"/>
+            </class>
+            <line num="37" count="1" visibility="public" complexity="2" type="method" signature="setup() : void"/>
+            <line num="40" count="1" type="stmt"/>
+            <line num="41" count="1" type="stmt"/>
+            <line num="43" count="1" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="50" count="1" visibility="public" complexity="2" type="method" signature="tearDown() : void"/>
+            <line num="52" count="1" type="stmt"/>
+            <line num="53" count="1" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="73" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="1.147" signature="testCSIData() : void"/>
+            <line num="75" count="1" type="stmt"/>
+            <line num="77" count="1" type="stmt"/>
+            <line num="79" count="1" type="stmt"/>
+            <line num="93" count="1" type="stmt"/>
+            <line num="94" count="1" type="stmt"/>
+            <line num="96" count="1" type="stmt"/>
+            <line num="97" count="1" type="stmt"/>
+            <line num="108" count="1" type="stmt"/>
+            <line num="109" count="1" type="stmt"/>
+            <line num="123" count="1" type="stmt"/>
+            <line num="124" count="1" type="stmt"/>
+            <line num="126" count="1" type="stmt"/>
+            <line num="128" count="1" type="stmt"/>
+            <line num="139" count="1" type="stmt"/>
+            <line num="140" count="1" type="stmt"/>
+            <line num="152" count="1" type="stmt"/>
+            <line num="153" count="1" type="stmt"/>
+            <line num="164" count="1" type="stmt"/>
+            <line num="165" count="1" type="stmt"/>
+         </file>
+         <file name="MMControllerTest.java" path="/Users/ac010168/Documents/umkc/ac-games-restservice-spring/src/test/java/com/ac/games/rest/test/MMControllerTest.java">
+            <metrics classes="1" methods="3" conditionals="0" ncloc="133" coveredstatements="24" coveredmethods="3" complexity="5" coveredconditionals="0" statements="27" loc="175" coveredelements="27" elements="30"/>
+            <class name="MMControllerTest">
+               <metrics conditionals="0" methods="3" coveredstatements="24" complexity="5" testpasses="1" testruns="1" coveredmethods="3" coveredconditionals="0" statements="27" testfailures="0" coveredelements="27" elements="30" testduration="1.216"/>
+            </class>
+            <line num="37" count="1" visibility="public" complexity="2" type="method" signature="setup() : void"/>
+            <line num="40" count="1" type="stmt"/>
+            <line num="41" count="1" type="stmt"/>
+            <line num="43" count="1" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="50" count="1" visibility="public" complexity="2" type="method" signature="tearDown() : void"/>
+            <line num="52" count="1" type="stmt"/>
+            <line num="53" count="1" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="73" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="1.216" signature="testMMData() : void"/>
+            <line num="75" count="1" type="stmt"/>
+            <line num="77" count="1" type="stmt"/>
+            <line num="79" count="1" type="stmt"/>
+            <line num="93" count="1" type="stmt"/>
+            <line num="94" count="1" type="stmt"/>
+            <line num="96" count="1" type="stmt"/>
+            <line num="97" count="1" type="stmt"/>
+            <line num="108" count="1" type="stmt"/>
+            <line num="109" count="1" type="stmt"/>
+            <line num="123" count="1" type="stmt"/>
+            <line num="124" count="1" type="stmt"/>
+            <line num="126" count="1" type="stmt"/>
+            <line num="128" count="1" type="stmt"/>
+            <line num="139" count="1" type="stmt"/>
+            <line num="140" count="1" type="stmt"/>
+            <line num="152" count="1" type="stmt"/>
+            <line num="153" count="1" type="stmt"/>
+            <line num="164" count="1" type="stmt"/>
+            <line num="165" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>
