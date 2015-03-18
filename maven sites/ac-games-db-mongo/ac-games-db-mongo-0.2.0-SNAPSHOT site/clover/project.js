@@ -1,0 +1,2 @@
+processClover (  {"children":["com/ac/games/db/mongo/","com/ac/games/db/"],"name":"Clover database Wed Mar 18 2015 14:04:53 CDT","stats":{"AvgMethodComplexity":4.947761,"Complexity":663,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":2,"TotalPercentageCovered":70.70009,"TotalStatements":1368,"UncoveredElements":678},"title":"MongoDB Database Implementation 0.2.0-SNAPSHOT"}
+ ); 
