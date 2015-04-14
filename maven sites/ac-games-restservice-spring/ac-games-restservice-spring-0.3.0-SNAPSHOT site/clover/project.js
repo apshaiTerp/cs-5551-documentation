@@ -1,0 +1,2 @@
+processClover (  {"children":["com/ac/games/rest/data/","com/ac/games/rest/filter/","com/ac/games/rest/controller/","com/ac/games/rest/"],"name":"Clover database Mon Apr 13 2015 16:33:11 CDT","stats":{"AvgMethodComplexity":11.155844,"Complexity":859,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":4,"TotalPercentageCovered":31.934244,"TotalStatements":1834,"UncoveredElements":1946},"title":"ac-games-restservice-spring 0.3.0-SNAPSHOT"}
+ ); 
