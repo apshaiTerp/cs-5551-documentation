@@ -1,0 +1,1002 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <link rel="SHORTCUT ICON" href="../../../../../img/clover.ico" />
+
+    <style type="text/css" media="screen">
+        @import url('../../../../../style.css');
+        @import url('../../../../../roundedcorners.css');
+        @import url('../../../../../tree.css');
+            </style>
+    
+    <script src="../../../../../sorttable.js" type="text/javascript"></script>
+    <script src="../../../../../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="../../../../../overlibmws_shadow.js" type="text/javascript" ></script>
+    <script src="../../../../../clover.js" type="text/javascript"></script>
+    <script src="../../../../../cloud.js" type="text/javascript"></script>
+    <script src="../../../../../help.js" type="text/javascript"></script>
+  <title>ac-games-restservice-spring 1.0</title>
+</head><body onload="loadPkgPane('ac-games-restservice-spring 1.0: com.ac.games.rest.controller', 'pkg-app.html');">
+  <!-- render overall pkg coverage graph -->
+<table cellspacing="0" cellpadding="2" class="barGraph">
+<tbody>
+  <tr>
+    <td colspan="7">
+
+    <div class="roundedLarge">
+      <b class="ctop"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+      <div class="roundedContent">
+    <table width="100%" class="" cellspacing="0"><tr class="reportHeader">
+    <td valign="top" class="titleText">Clover Coverage  Report - <a href="http://projects.spring.io/spring-boot/ac-games-restservice-spring/" target="_top">ac-games-restservice-spring 1.0</a><div class="timestamp"><b>Coverage timestamp:</b>&nbsp;Fri May 1 2015 19:20:36 CDT</div>
+
+        
+                <div class="navBar"><span class="navBarCurrent">App</span>&nbsp;&nbsp;&nbsp;<a href="pkg-risks.html">Clouds</a></div>
+        
+                    	<div class="navBar"><a href="../../../../../pkg-summary.html"><b>Overview</b></a>&nbsp;&nbsp;&nbsp;<span class="navBarCurrent">Package</span>&nbsp;&nbsp;&nbsp;File</div>
+            
+    <div class="navBarLink">
+        &nbsp;&nbsp;&nbsp;
+        <a href="../../../../../index.html" target="_top">FRAMES</a>&nbsp;&nbsp;
+        <a href="pkg-summary.html" target="_top">NO FRAMES</a>&nbsp;&nbsp;
+        <label onclick="toggleHelp(this);" class="nonHelpItem">SHOW HELP</label>&nbsp;&nbsp;
+    </div>
+
+    </td>
+
+    
+        
+
+     <td  id="td-header-stats" class="headerStats" valign="top" style="font-weight: normal;width:40%; text-align: right; display: ;">
+         <table style="text-align: right; white-space:nowrap;">
+         <tr>
+           <td colspan="11" class="totalText" style="text-align: left"><label>Statistics for package com.ac.games.rest.controller:</label></td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_stmts + 'package';">Stmts:</label></td>
+           <td >      2,270
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_loc + 'package';">LOC:</label></td>
+           <td >      4,583
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp + 'package';">Total cmp:</label></td>
+           <td >      912
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_stmts_per_method;">Stmts/Method:</label></td>
+           <td >      46.33
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_branches + 'package';">Branches:</label></td>
+           <td >      1,188
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_ncloc + 'package';">NCLOC:</label></td>
+           <td >      3,261
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp_density + 'package';">Cmp density:</label></td>
+           <td >      0.4
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_methods_per_class;">Methods/Class:</label></td>
+           <td >      3.27
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_methods + 'package';">Methods:</label></td>
+           <td >      49
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                    <td  class="totalText"><label onkeyup="return help_files + 'package';">Files:</label></td>
+           <td >      15
+  </td>
+                    <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_avg_method_cmp + 'package';">Avg method cmp:</label></td>
+           <td >      18.61
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+          
+         </tr>
+           <tr>
+            <td  class="totalText"><label onkeyup="return help_classes + 'package';">Classes:</label></td>
+            <td >      15
+  </td>
+            <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+                     <td style="width: 10%">&nbsp;</td>
+         </tr>
+             </table>
+     </td>
+
+    
+    
+    
+
+     <td  id="td-filtered-header-stats" class="headerStats" valign="top" style="font-weight: normal;width:40%; text-align: right; display: none;">
+         <table style="text-align: right; white-space:nowrap;">
+         <tr>
+           <td colspan="11" class="totalText" style="text-align: left"><label>Statistics for package com.ac.games.rest.controller:</label></td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_stmts + 'package';">Stmts:</label></td>
+           <td >      2,270
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_loc + 'package';">LOC:</label></td>
+           <td >      4,583
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp + 'package';">Total cmp:</label></td>
+           <td >      912
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_stmts_per_method;">Stmts/Method:</label></td>
+           <td >      46.33
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_branches + 'package';">Branches:</label></td>
+           <td >      1,188
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_ncloc + 'package';">NCLOC:</label></td>
+           <td >      3,261
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp_density + 'package';">Cmp density:</label></td>
+           <td >      0.4
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_methods_per_class;">Methods/Class:</label></td>
+           <td >      3.27
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_methods + 'package';">Methods:</label></td>
+           <td >      49
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                    <td  class="totalText"><label onkeyup="return help_files + 'package';">Files:</label></td>
+           <td >      15
+  </td>
+                    <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_avg_method_cmp + 'package';">Avg method cmp:</label></td>
+           <td >      18.61
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+          
+         </tr>
+           <tr>
+            <td  class="totalText"><label onkeyup="return help_classes + 'package';">Classes:</label></td>
+            <td >      15
+  </td>
+            <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+                     <td style="width: 10%">&nbsp;</td>
+         </tr>
+             </table>
+     </td>
+</tr>
+
+    </table>
+  </div>
+  <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+  </div>
+
+   </td>
+  </tr>
+
+
+
+
+<tr><td class="hbreak" colspan="7">&nbsp;</td></tr>
+
+<tr>
+  <td class="graphHeaderLeft"><b>&nbsp;Package</b></td>
+  <td class="graphHeader headerTitle" colspan="1"><label >Files</label></td>
+  <td class="graphHeader headerTitle" colspan="1"><label  onkeyup="return 'The percentage of elements that have been filtered from this report.';" >% Filtered</label></td>
+  <td class="graphHeader headerTitle" colspan="1"><label  onkeyup="return 'The average number of paths per method.';" >Average Method Complexity</label></td>
+  <td class="graphHeader headerTitle" colspan="1"><label  onkeyup="return 'The number of statements and branches that were not covered during testing.';" >Uncovered Elements</label></td>
+  <td class="graphHeader headerTitle" colspan="2"><label  onkeyup="return 'The amount of code that was hit at least once during testing.';" >TOTAL Coverage</label></td>
+</tr>
+
+  <tr>
+    <td class="graphItem">
+			<a class='cloudLink' href='pkg-risks.html'><img alt='Cloud icon for com.ac.games.rest.controller' src='../../../../..//img/cloud.png'/></a>
+	        <span class="sortValue">com.ac.games.rest.controller</span>
+    	   com.ac.games.rest.controller
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">15.0</span>
+          15
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">18.612246</span>
+          18.61
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">2663.0</span>
+          2,663
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.24066153</span>
+          24.1%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.24066153</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="75.9% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="24.1% Covered" class="barPositive " style="width: 24.1%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+<tr><td class="hbreak" colspan="7">&nbsp;</td></tr>
+</tbody>
+<tbody>
+
+<tr>
+    <td class="sortable graphHeaderLeft" onclick="ts_resortTable(this, 'alpha', 0);return false;">
+        <strong>&nbsp;Class</strong>
+    </td>
+            <td class="sortable graphHeader" onclick="ts_resortTable(this, 'number', 1);return false;"  colspan="1">
+        <div class="headerTitle"><label >Methods</label></div>
+    </td>
+            <td class="sortable graphHeader" onclick="ts_resortTable(this, 'number', 2);return false;"  colspan="1">
+        <div class="headerTitle"><label  onkeyup="return 'The percentage of elements that have been filtered from this report.';" >% Filtered</label></div>
+    </td>
+            <td class="sortable graphHeader" onclick="ts_resortTable(this, 'number', 3);return false;"  colspan="1">
+        <div class="headerTitle"><label  onkeyup="return 'The average number of paths per method.';" >Average Method Complexity</label></div>
+    </td>
+            <td class="sortable graphHeader" onclick="ts_resortTable(this, 'number', 4);return false;"  colspan="1">
+        <div class="headerTitle"><label  onkeyup="return 'The number of statements and branches that were not covered during testing.';" >Uncovered Elements</label></div>
+    </td>
+            <td class="sortable graphHeader" onclick="ts_resortTable(this, 'number', 5);return false;"  colspan="2">
+        <div class="headerTitle"><label  onkeyup="return 'The amount of code that was hit at least once during testing.';" >TOTAL Coverage</label></div>
+    </td>
+        </tr>  <!-- render list of class coverage graphs -->
+                 <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">AutocompleteController</span>
+    	  <a href="AutocompleteController.html#AutocompleteController" title="AutocompleteController">AutocompleteController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">1.0</span>
+          1
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">46.0</span>
+          46
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">204.0</span>
+          204
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">CollectionAddController</span>
+    	  <a href="CollectionAddController.html#CollectionAddController" title="CollectionAddController">CollectionAddController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">1.0</span>
+          1
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">15.0</span>
+          15
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">79.0</span>
+          79
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">RecommendController</span>
+    	  <a href="RecommendController.html#RecommendController" title="RecommendController">RecommendController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">3.0</span>
+          3
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">31.666666</span>
+          31.67
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">341.0</span>
+          341
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">SearchController</span>
+    	  <a href="SearchController.html#SearchController" title="SearchController">SearchController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">11.0</span>
+          11
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">182.0</span>
+          182
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">StatsController</span>
+    	  <a href="StatsController.html#StatsController" title="StatsController">StatsController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">1.0</span>
+          1
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">16.0</span>
+          16
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">47.0</span>
+          47
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">WishListController</span>
+    	  <a href="WishListController.html#WishListController" title="WishListController">WishListController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">3.0</span>
+          3
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">20.333334</span>
+          20.33
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">255.0</span>
+          255
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">BGGDataController</span>
+    	  <a href="BGGDataController.html#BGGDataController" title="BGGDataController">BGGDataController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">6.0</span>
+          6
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">29.0</span>
+          29
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">479.0</span>
+          479
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.23968254</span>
+          24%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.23968254</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="76% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="24% Covered" class="barPositive " style="width: 24%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">GameReltnController</span>
+    	  <a href="GameReltnController.html#GameReltnController" title="GameReltnController">GameReltnController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">13.5</span>
+          13.5
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">154.0</span>
+          154
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.3</span>
+          30%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.3</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="70% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="30% Covered" class="barPositive " style="width: 30%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">CSIDataController</span>
+    	  <a href="CSIDataController.html#CSIDataController" title="CSIDataController">CSIDataController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">21.5</span>
+          21.5
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">206.0</span>
+          206
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.33116883</span>
+          33.1%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.33116883</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="66.9% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="33.1% Covered" class="barPositive " style="width: 33.1%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">CollectionController</span>
+    	  <a href="CollectionController.html#CollectionController" title="CollectionController">CollectionController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">13.0</span>
+          13
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">131.0</span>
+          131
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.33163264</span>
+          33.2%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.33163264</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="66.8% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="33.2% Covered" class="barPositive " style="width: 33.2%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">CollectionItemController</span>
+    	  <a href="CollectionItemController.html#CollectionItemController" title="CollectionItemController">CollectionItemController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">19.0</span>
+          19
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">206.0</span>
+          206
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.3376206</span>
+          33.8%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.3376206</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="66.2% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="33.8% Covered" class="barPositive " style="width: 33.8%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">MMDataController</span>
+    	  <a href="MMDataController.html#MMDataController" title="MMDataController">MMDataController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">27.5</span>
+          27.5
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">241.0</span>
+          241
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.3538874</span>
+          35.4%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.3538874</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="64.6% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="35.4% Covered" class="barPositive " style="width: 35.4%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">GameController</span>
+    	  <a href="GameController.html#GameController" title="GameController">GameController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">6.25</span>
+          6.25
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">40.0</span>
+          40
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.58762884</span>
+          58.8%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.58762884</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="41.2% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="58.8% Covered" class="barPositive " style="width: 58.8%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">LoginController</span>
+    	  <a href="LoginController.html#LoginController" title="LoginController">LoginController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">2.0</span>
+          2
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">13.0</span>
+          13
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">47.0</span>
+          47
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.5982906</span>
+          59.8%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.5982906</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="40.2% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="59.8% Covered" class="barPositive " style="width: 59.8%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+                    <tr>
+    <td class="graphItem">
+			
+	        <span class="sortValue">UserController</span>
+    	  <a href="UserController.html#UserController" title="UserController">UserController</a>
+		    </td>
+
+              
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">4.0</span>
+          4
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.0</span>
+          0%
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">8.0</span>
+          8
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">51.0</span>
+          51
+      </td>
+      
+          
+      <td class="graphPercent  $style" align="right">
+          <span class="sortValue">0.6530612</span>
+          65.3%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.6530612</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="34.7% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="65.3% Covered" class="barPositive " style="width: 65.3%"></div>
+    </div>
+</div>
+      </td>
+      
+      </tr>
+   </tbody>
+<tbody>
+<tr><td class="hbreak" colspan="7">&nbsp;</td></tr>
+<tr><td class="footer" colspan="7">
+<table>
+<tr>
+ <td><a target="_new" href="http://www.atlassian.com/software/clover"><img alt="Clover" src="../../../../../img/logo.gif" style="border:none"/></a></td><td style="white-space:nowrap;"><i>Report generated by </i>Clover <a target="_new" href="http://www.atlassian.com/software/clover">Code Coverage</a> v3.3.0<i><br/>Fri May 1 2015 19:21:20 CDT</i>.</td>
+<td>&nbsp;</td><td style="BORDER-LEFT: #9c9c9c 1px solid;">&nbsp;</td><td>Clover: Commercial License registered to Cerner Corporation. </td>
+</tr>
+</table>
+</td>
+</tr></tbody>
+</table>
+</body>
+</html>
